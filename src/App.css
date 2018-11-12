@@ -1,32 +1,88 @@
-.App {
+* {
+  font-family: sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+h1 {
+  color: #c253ea;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.inputs {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.inputbox1 {
+  background-color: aquamarine;
+  border-style: none;
+  padding: 10px;
+  color: #3a9d7c;
+}
+
+.addbutton {
+  background-color: aquamarine;
+  border-style: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+.addbutton:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listitem {
+  display: flex;
+}
+
+li {
+  color: #3a9d7c;
+}
+
+.deletebutton {
+  background-color: #c5cdca;
+  border-style: none;
+  padding: 3px;
+  color: white;
+  margin-left: 10px;
+}
+
+.deleteallbutton {
+  background-color: #c5cdca;
+  border-style: none;
+  padding: 3px;
+  color: white;
+  margin-left: 10px;
+}
+
+.deleteallbutton:hover {
+  color: darkslategrey;
+}
+
+.link {
+  position: absolute;
+  bottom: 30px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.homelink {
+  margin-bottom: 30px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-decoration: none;
+  background-color: #f5f999;
+}
+
+.homelink:hover {
+  color: #c253ea;
 }
